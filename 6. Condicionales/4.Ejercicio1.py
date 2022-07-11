@@ -26,6 +26,7 @@ else:
 
 #la otra forma de hacerlo seria...
 
+#in es para asegurarnos que un elemento este adentro de otro
 if vocal.lower() in "aeiou":
     print("Es una vocal")
 else:
