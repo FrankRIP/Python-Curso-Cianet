@@ -1,0 +1,77 @@
+header{
+    background-color: blue;
+    border: 5px chartreuse; /* chartreuse es el color del borde*/
+    width: 770px;
+    height: 200px;
+    margin: 5px; /*el margen se le da para que no top con ningun limite de la pagina */
+    border-radius: 10px;
+}
+
+main{
+    width: 780px;
+    height: 400px;
+    background-color: chocolate;
+}
+
+nav{
+    background-color: gray;
+    width: 150px;
+    height: 390px;
+    float: left; /*Le digo que ve va a ubicar en la parte izquierda de la pagina web */
+    border-radius: 10px;
+    margin: 10px;
+}
+
+section{
+    background-color: blueviolet;
+    width: 450px;
+    height: 390px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+
+}
+
+#Primero{ /* Mando llamar al article Primero*/
+    background-color: burlywood;
+    width: 440px;
+    height: 120px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#Segundo{
+    background-color: burlywood;
+    width: 440px;
+    height: 120px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+#Tercero{
+    background-color: burlywood;
+    width: 440px;
+    height: 120px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+aside{
+    background-color: gray;
+    width: 150px;
+    height: 390px;
+    float: right;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: gray;
+    width: 770px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+}
