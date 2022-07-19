@@ -27,5 +27,26 @@ h1,h2, h3, h4, h5, h6{
 h1{
     font-size: 72px;
 }
-*/
+/*
+ /*Selector hijo
+ /*
+h1>a{/* le estoy diciendo que todas las etiquetas "a" que esten dentro de "h1" van a llevar lo que le indico en las reglas
+    color: coral;
+    font-size: 48px;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+p > a{
+    color: red;
+    font-size: 46px;
+}
+*/
+/*
+selector adyacente
+h2 + h3{ /*al elemento mas cercano a h2 le voy a colocar las reglas de css 
+    color: fuchsia;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*/
